@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Консалтинг</title>
+	<link rel="stylesheet" href="css/main.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <!-- for on scroll animations -->
+      <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+      <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+</head>
+<body>
+
+
+	<header>
+		<div class="container">
+			<div class="heading clearfix">
+				<nav class="nav">
+					<a href="#"><img src="img/ruki.png" alt="Консалтинг" class="logo"></a>
+					<ul class="menu">
+						<li>
+							<a href="#">Главная</a>
+						</li>
+						<li>
+							<a href="#sec01">Услуги</a>
+						</li>
+						<li>
+							<a href="#sec02">О нас</a>
+						</li>
+						<li>
+							<a href="#sec03">Контакты</a>
+						</li>
+					</ul>
+
+					<div id="toggle">
+			                        <div class="span">Меню</div>
+			      </div>
+				</nav>
+			</div>
+			<div class="titles">
+				<div class="titles__first">
+					ДОБРО ПОЖАЛОВАТЬ В
+				</div>
+				<h1>
+					КОНСАЛТИНГОВУЮ <br>ФИРМУ!
+				</h1>
+				<a class="button" href="#sec03">Заказать услугу</a>
+			</div>
+			
+		</div>
+
+
+	</header>
+
+	<div id="resize">
+                  <div class="close-btn">закрыть</div>
+
+                  <ul id="menu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#sec01">Услуги</a></li>
+                        <li><a href="#sec02">О нас</a></li>
+                        <li><a href="#sec03">Контакты</a></li>
+                  </ul>
+            </div>
+
+<a name="sec01"></a>
+
+	<section id="services">
+		<div class="container">
+			<div class="title">
+				<h2 class="sec01">
+					УСЛУГИ
+				</h2>
+				<p>
+					Основные направления. 
+				</p>
+			</div>
+			<div class="services clearfix">
+				<div class="services__item">
+					<img src="img/icon1.png" alt="Услуга">
+					<h3>РЕГИСТРАЦИЯ</h3>
+					<p>
+						(ИП, ООО, АО)
+					</p>
+				</div>
+				<div class="services__item">
+					<img src="img/icon2.png" alt="Услуга">
+					<h3>ПЕРЕРЕГИСТРАЦИЯ</h3>
+					<p>
+						(ИП, Компаний)
+					</p>
+				</div>
+				<div class="services__item">
+					<img src="img/icon3.png" alt="Услуга">
+					<h3>БАНКОВСКИЕ УСЛУГИ</h3>
+					<p>
+						(Открытие расчетного счета, Эквайринг)
+					</p>
+				</div>
+				<div class="services__item">
+					<img src="img/icon4.png" alt="Услуга">
+					<h3>БУХГАЛТЕРСКОЕ СОПРОВОЖДЕНИЕ</h3>
+					<p>
+						(Аутсорсинг)
+					</p>
+				</div>
+				<div class="services__item">
+					<img src="img/icon5.png" alt="Услуга">
+					<h3>ЮРИДИЧЕСКИЙ АДРЕС</h3>
+					<p>
+						(Юр. адрес в г.Грозном, г.Москва)
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<a name="sec02"></a>
+
+	<section id="portfolio">
+		<div class="container">
+			<div class="title">
+				<h2 class="sec02">
+					О НАС
+				</h2>
+				<p>
+					Быстро и качественно. 
+				</p>
+			</div>
+			<div class="works clearfix">
+				<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore ratione, ipsum amet sint dolore quisquam nihil mollitia iste esse quo, quas praesentium. Officia nobis consectetur, ea incidunt fuga beatae.</p>
+			</div>
+		</div>
+	</section>
+
+	<a name="sec03"></a>
+
+	<section>
+		<div class="container2">
+			<div class="main">
+				<div class="form">
+					<p class="form-header">Введите свои контактные данные</p>
+					<form action="requests/mail.php" method="POST">
+						<input type="text" placeholder="Ваше имя">
+						<input type="text" placeholder="Ваш телелефон или email">
+						<button class="form-btn">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container2">
+			<div class="contacts clearfix">
+				<img src="img/ruki.png" alt="Консалтинг" class="logo2">
+				<h4 class="num">+7(963) 981-47-25</h4>
+				<h4>mezidov.ahmed@gmail.com</h4>
+				<h4>ИП МЕЖИДОВ А.И.</h4>
+			</div>
+			
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+	<script>
+		
+		// navigation starts here
+			$("#toggle").click(function() {
+			            $(this).toggleClass('on');
+			            $("#resize").toggleClass("active");
+			      });
+			      $("#resize ul li a").click(function() {
+			            $(this).toggleClass('on');
+			            $("#resize").toggleClass("active");
+			      });
+			      $(".close-btn").click(function() {
+			            $(this).toggleClass('on');
+			            $("#resize").toggleClass("active");
+			      });
+
+			$(function () {
+			  $(document).scroll(function () {
+			    var $nav = $(".nav");
+			    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+			  });
+			});
+
+			new WOW().init();
+
+			// Select all links with hashes
+			$('a[href*="#"]')
+			  // Remove links that don't actually link to anything
+			  .not('[href="#"]')
+			  .not('[href="#0"]')
+			  .click(function(event) {
+			    // On-page links
+			    if (
+			      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+			      && 
+			      location.hostname == this.hostname
+			    ) {
+			      // Figure out element to scroll to
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			      // Does a scroll target exist?
+			      if (target.length) {
+			        // Only prevent default if animation is actually gonna happen
+			        event.preventDefault();
+			        $('html, body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000, function() {
+			          // Callback after animation
+			          // Must change focus!
+			          var $target = $(target);
+			          $target.focus();
+			          if ($target.is(":focus")) { // Checking if the target was focused
+			            return false;
+			          } else {
+			            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+			            $target.focus(); // Set focus again
+			          };
+			        });
+			      }
+			    }
+			  });
+
+
+
+	</script>
+
+</body>
+</html>
